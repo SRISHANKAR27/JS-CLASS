@@ -1,9 +1,5 @@
-console.log("---------------EVEN OR ODD DAY MESSSAGE------------");
-
-//STRING INPUT  
-let StringNumber="12";
-
-//CONVERSION TO NUMBER
+console.log("EVEN OR ODD DAY"); 
+let StringNumber="15";
 let num=Number(StringNumber);
 
 switch(num%2){

@@ -1,7 +1,7 @@
-console.log("----------------SIMPLE CALCULATOR------------");
+console.log("SIMPLE CALCULATOR");
 console.log("Enter Your Input:");
-let string1="3";
-let string2="4";
+let string1="6";
+let string2="7";
 
 
 num1=Number(string1);
