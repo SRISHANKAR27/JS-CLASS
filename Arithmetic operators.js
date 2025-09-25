@@ -188,26 +188,3 @@ console.log(0 === false);   //false
 console.log(0 === null);    //false
 */
 
-//Tenary operator
-//Condition ? trueExpression : falseExpression
-
-/*let mark = 50;
-let result = (mark >= 40)? "Pass" : "Fail";
-console.log(result); //pass*/
-
-/*let Height = 172 ;
-let result = (Height >= 172) ? "Recruit" : "Reject";
-console.log(result); //Recruit*/
-
-//Nested ternary operator
-/*let day =3;
-let result = (day === 1) ? "start of the week" :
-               (day === 2) ? "Second day" :
-               (day === 3) ? "Midweek" :
-               (day === 4) ? "Almost weekend" :
-
-console.log(result);                  
-*/
-
-
-
