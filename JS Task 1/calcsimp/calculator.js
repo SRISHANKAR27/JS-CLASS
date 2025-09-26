@@ -2,13 +2,9 @@ console.log("SIMPLE CALCULATOR");
 console.log("Enter Your Input:");
 let string1="6";
 let string2="7";
-
-
 num1=Number(string1);
 num2=Number(string2);
-
 let op="*";
-
 switch(op){
     case '+':
         let a=num1+num2;
