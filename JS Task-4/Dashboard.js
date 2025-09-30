@@ -22,7 +22,7 @@ let city_check = prompt("Enter City:");
             let time=date.getHours();
         if (time<12){
             alert("good morning!");
-        }else if(time>12&&time<4){
+        }else if(time>=12 && time <=16){
             alert("Good afternoon!");
         }else{
             alert("Good evening!");
