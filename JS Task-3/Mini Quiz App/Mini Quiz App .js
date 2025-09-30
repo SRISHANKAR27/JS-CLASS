@@ -17,7 +17,14 @@ let q3 = prompt("Q3: Which planet is known as the Red Planet?\n1. Earth\n2. Mars
 switch (q3) {
   case "2":
     score++;
+    break;   
+}
+
+let q4 = prompt("Q4: What is the largest ocean on Earth?\n1. Atlantic Ocean\n2. Indian Ocean\n3. Pacific Ocean");
+switch (q4) {
+  case "3":
+    score++;
     break;
 }
 
-alert(`Your Final Score: ${score}/3`);
+alert(`Your Final Score: ${score}/4`);
