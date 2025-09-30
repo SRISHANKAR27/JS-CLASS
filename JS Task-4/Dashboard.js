@@ -45,9 +45,16 @@ let city_check = prompt("Enter City:");
         alert ("Believe you can and you're halfway there.");
         alert ("Success is not the key to happiness. Happiness is the key to success.");
 
-}
-
-else {
+        let student_json = {
+            name: student_check,
+            password: password_check,
+            city: city_check,
+            birthyear: birthyear,
+            age: age,
+            eligibility: age >= 18 ? "Eligible" : "Not Eligible"
+        };
+        alert("Student Info in JSON format:\n" + JSON.stringify(student_json, null, 2));
+} else {
     alert("Invalid Credentials");
     throw "Invalid Credentials";
 }
