@@ -5,7 +5,7 @@ let city ="Coimbatore";
 let student_check = prompt("Enter Student Name:");
 let password_check = prompt("Enter Password:");
 let city_check = prompt("Enter City:");
-    if (student_check == "srishankar" && password_check == 27072003 && city_check == "coimbatore") {
+    if (student_check == "srishankar" && password_check == 27072003 && city_check == "Coimbatore") {
     alert("Welcome to Dashboard");
     let birthyear = prompt("Enter your birth year:");
     let date=new Date();
