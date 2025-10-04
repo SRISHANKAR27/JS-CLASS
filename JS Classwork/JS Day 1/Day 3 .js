@@ -61,7 +61,7 @@ let languages = ["HTML", "CSS", "JavaScript"];
 // true (index 1 exists in the array)
 console.log(1 in language)*/
 
-console.log("TERNARY OPERATOR");
+/*console.log("TERNARY OPERATOR");
 let mark=50;
 let result = (mark>=40)?"Pass": "Fail";
 console.log(result);//Pass
@@ -143,4 +143,4 @@ switch (day10) {
 console.log(dayName);
 
 console.log (5 == "5");
-
+*/
